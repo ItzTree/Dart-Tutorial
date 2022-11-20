@@ -95,7 +95,7 @@ num distanceTo(Point other) {
 
 ### Getters and Setters
 Getter와 Setter는 메소드의 일종으로, 객체의 property를 읽거나 쓰기 위해 사용한다.  
-객체의 멤버 데이터를 직접 읽고 쓰기 보다는 간접적으로 Getter와 Setter를 통해 접근한다. 
+객체의 멤버 데이터를 직접 읽고 쓰기 보다는 간접적으로 Getter와 Setter를 통해 접근한다.  
 또, 클래스 안에서 **\_을 붙여 변수를 선언하게 되면 private 변수**가 되어 외부 파일에서 접근이 불가한데,
 getter와 setter를 이용해주면 외부에서 접근할 수 있다. <br><br>
 
