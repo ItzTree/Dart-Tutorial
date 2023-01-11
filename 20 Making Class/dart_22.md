@@ -15,16 +15,20 @@ Point([var numX = 0, var numY = 0]) {
 ```
 <br>
 그런데 이런 경우 굳이 메소드의 본문을 채우지 않고도 constructor를 선언할 수 있다.
+
 ```dart
 Point([var numX = 0, var numY = 0])
     : this.x = numX,
       this.y = numY {}
 ```
+
 <br>
 이렇게 멤버 변수에 바로 대응이 되는 파라미터만 입력받는다면, 더 간단하게 나타낼 수 있다.
+
 ```dart
 Point([this.x = 0, this.y = 0]) {}
 ```
+
 <br>
 
 ### Factory Constructor
