@@ -67,4 +67,4 @@ factory constructor 내 putIfAbsent 구문을 보면,
 ```dart
 enum Color { red, green, blue }
 ```
-단어를 사용해 순서를 나타내거나 제한된 갓을 가지는 문제를 좀 더 용이하게 개발하도록 하는 문법이다.  
+단어를 사용해 순서를 나타내거나 제한된 을 가지는 문제를 좀 더 용이하게 개발하도록 하는 문법이다.  
